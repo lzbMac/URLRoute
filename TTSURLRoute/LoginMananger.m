@@ -8,6 +8,11 @@
 
 #import "LoginMananger.h"
 #import "LoginViewController.h"
+#import "TTSURLRouteConfigDelegate.h"
+
+@interface LoginMananger ()<TTSURLRouteConfigDelegate,TTSURLRouteHoldLoginDelegate>
+
+@end
 
 @implementation LoginMananger
 - (void)startLoginWithSuccessBlock:(void(^)(BOOL isLogin))block options:(NSDictionary *)options {
@@ -18,7 +23,10 @@
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:login];
     [lastViewController.navigationController presentViewController:nav animated:YES completion:nil];
     
+}
 
+- (BOOL)route_isLogin {
+    return YES;
 }
 
 @end

@@ -29,12 +29,21 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaB-NS-W1Q">
-                    <rect key="frame" x="62" y="232" width="115" height="61"/>
+                    <rect key="frame" x="20" y="162" width="115" height="61"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
                     <state key="normal" title="登录"/>
                     <connections>
                         <action selector="login:" destination="-1" eventType="touchUpInside" id="1bv-SL-7Q2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWp-xh-INp">
+                    <rect key="frame" x="46" y="287" width="109" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <state key="normal" title="取消登录"/>
+                    <connections>
+                        <action selector="cancleLogin:" destination="-1" eventType="touchUpInside" id="BNA-y6-7k7"/>
                     </connections>
                 </button>
             </subviews>

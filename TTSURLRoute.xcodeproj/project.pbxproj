@@ -37,6 +37,8 @@
 		8F0A5E7C1E8B5784004487BC /* NSURL+URLChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E761E8B5784004487BC /* NSURL+URLChar.m */; };
 		8F0A5E7D1E8B5784004487BC /* NSURL+URLWithStringEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E781E8B5784004487BC /* NSURL+URLWithStringEncode.m */; };
 		8F0A5E8C1E8B667F004487BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A5E8B1E8B667F004487BC /* Assets.xcassets */; };
+		8F0A5E8F1E8B81C8004487BC /* TTSCommonModuleRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E8E1E8B81C8004487BC /* TTSCommonModuleRegister.m */; };
+		8F0A5E921E8B86ED004487BC /* TTSMemberManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E911E8B86ED004487BC /* TTSMemberManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +102,10 @@
 		8F0A5E771E8B5784004487BC /* NSURL+URLWithStringEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+URLWithStringEncode.h"; sourceTree = "<group>"; };
 		8F0A5E781E8B5784004487BC /* NSURL+URLWithStringEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+URLWithStringEncode.m"; sourceTree = "<group>"; };
 		8F0A5E8B1E8B667F004487BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F0A5E8D1E8B81C8004487BC /* TTSCommonModuleRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSCommonModuleRegister.h; sourceTree = "<group>"; };
+		8F0A5E8E1E8B81C8004487BC /* TTSCommonModuleRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSCommonModuleRegister.m; sourceTree = "<group>"; };
+		8F0A5E901E8B86ED004487BC /* TTSMemberManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSMemberManager.h; sourceTree = "<group>"; };
+		8F0A5E911E8B86ED004487BC /* TTSMemberManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSMemberManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,8 @@
 			children = (
 				8F0A5E091E8B3544004487BC /* AppDelegate.h */,
 				8F0A5E0A1E8B3544004487BC /* AppDelegate.m */,
+				8F0A5E8D1E8B81C8004487BC /* TTSCommonModuleRegister.h */,
+				8F0A5E8E1E8B81C8004487BC /* TTSCommonModuleRegister.m */,
 				8F0A5E0C1E8B3544004487BC /* ViewController.h */,
 				8F0A5E0D1E8B3544004487BC /* ViewController.m */,
 				8F0A5E571E8B562A004487BC /* HomeViewController.h */,
@@ -148,6 +156,8 @@
 				8F0A5E5E1E8B562A004487BC /* IndexSearchViewController.xib */,
 				8F0A5E5F1E8B562A004487BC /* LoginMananger.h */,
 				8F0A5E601E8B562A004487BC /* LoginMananger.m */,
+				8F0A5E901E8B86ED004487BC /* TTSMemberManager.h */,
+				8F0A5E911E8B86ED004487BC /* TTSMemberManager.m */,
 				8F0A5E611E8B562A004487BC /* LoginViewController.h */,
 				8F0A5E621E8B562A004487BC /* LoginViewController.m */,
 				8F0A5E631E8B562A004487BC /* LoginViewController.xib */,
@@ -338,6 +348,7 @@
 				8F0A5E7D1E8B5784004487BC /* NSURL+URLWithStringEncode.m in Sources */,
 				8F0A5E551E8B54B9004487BC /* TTSURLBridge.m in Sources */,
 				8F0A5E6B1E8B562A004487BC /* LoginViewController.m in Sources */,
+				8F0A5E8F1E8B81C8004487BC /* TTSCommonModuleRegister.m in Sources */,
 				8F0A5E451E8B4C51004487BC /* TTSURLRouteHold.m in Sources */,
 				8F0A5E421E8B4B49004487BC /* TTSURLRoute.m in Sources */,
 				8F0A5E7C1E8B5784004487BC /* NSURL+URLChar.m in Sources */,
@@ -358,6 +369,7 @@
 				8F0A5E651E8B562A004487BC /* HomeViewController.m in Sources */,
 				8F0A5E7B1E8B5784004487BC /* NSString+URLCode.m in Sources */,
 				8F0A5E3C1E8B4953004487BC /* TTSURLRouteResult.m in Sources */,
+				8F0A5E921E8B86ED004487BC /* TTSMemberManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

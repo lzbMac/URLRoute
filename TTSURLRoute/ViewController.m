@@ -41,6 +41,13 @@
     [btn3 setTitle:@"login" forState:UIControlStateNormal];
     [self.view addSubview:btn3];
     
+    UIButton *btn4 = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn4.frame = CGRectMake(200, 300, 180, 50);
+    [btn4 setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [btn4 addTarget:self action:@selector(cancleLogin) forControlEvents:UIControlEventTouchUpInside];
+    [btn4 setTitle:@"点这里取消登录" forState:UIControlStateNormal];
+    [self.view addSubview:btn4];
+    
 }
 - (IBAction)gotohome:(id)sender {
     [self openRouteURLString:@"ttsclient://index/home?color=1&title=首页" options:nil];
@@ -56,6 +63,12 @@
 }
 - (void)routeCallBackWithParam:(NSDictionary *)callback {
     NSLog(@"这里是回调a---%@",callback);
+}
+- (void)cancleLogin{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"已取消登录！" delegate:nil cancelButtonTitle:@"好的" otherButtonTitles:nil, nil];
+    [alert show];
+    [[NSUserDefaults standardUserDefaults] setObject:@"0" forKey:@"login_flag"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (void)didReceiveMemoryWarning {

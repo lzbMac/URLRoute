@@ -14,9 +14,11 @@
 
 - (void)holdWithParameters:(NSDictionary *)parameters {
     UIViewController *lastVc = parameters[kRouteHoldLastViewController];
+    NSDictionary *paramDict = parameters[kRouteHoldParameter];
     IndexSearchViewController *vc = [IndexSearchViewController new];
     vc.view.backgroundColor = [UIColor whiteColor];
     vc.routeCallBackViewController = lastVc;
+    vc.title = paramDict[@"title"];
     [lastVc.navigationController pushViewController:vc animated:YES];
 }
 @end

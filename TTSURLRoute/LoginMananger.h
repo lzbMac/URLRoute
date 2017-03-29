@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "TTSURLRouteKit.h"
 
-@interface LoginMananger : NSObject<TTSURLRouteHoldLoginDelegate>
-- (void)startLoginWithSuccessBlock:(void(^)(BOOL isLogin))block options:(NSDictionary *)options;
+@interface LoginMananger : NSObject
+
 @end

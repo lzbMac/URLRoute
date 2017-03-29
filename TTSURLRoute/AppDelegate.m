@@ -7,9 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "TTSURLRouteKit.h"
+#import "TTSCommonModuleRegister.h"
 #import "ViewController.h"
-#import "LoginMananger.h"
 
 @interface AppDelegate ()
 
@@ -19,14 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSMutableArray *paths = [NSMutableArray array];
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"URLRoutePlist" ofType:@"plist"];
-    [paths addObject:path];
-    [TTSURLRouteConfig addRouteWithPlistPaths:paths];
-    
-    //登录
-    [TTSURLRouteHoldConfig registerURLRouteHoldLoginClass:[LoginMananger class]];
-    
+    [TTSCommonModuleRegister registerURLRoutePlist];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
     self.window.rootViewController = nav;
     return YES;

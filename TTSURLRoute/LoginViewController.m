@@ -33,6 +33,17 @@
 - (IBAction)login:(id)sender {
     loginBlock(YES);
     [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+    [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"login_flag"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"登录成功，下次无需登录！！" delegate:nil cancelButtonTitle:@"好的" otherButtonTitles:nil, nil];
+    [alert show];
+}
+- (IBAction)cancleLogin:(id)sender {
+    [[NSUserDefaults standardUserDefaults] setObject:@"0" forKey:@"login_flag"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+   
 }
 
 - (void)didReceiveMemoryWarning {
