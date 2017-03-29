@@ -36,7 +36,7 @@
 		8F0A5E7B1E8B5784004487BC /* NSString+URLCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E741E8B5784004487BC /* NSString+URLCode.m */; };
 		8F0A5E7C1E8B5784004487BC /* NSURL+URLChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E761E8B5784004487BC /* NSURL+URLChar.m */; };
 		8F0A5E7D1E8B5784004487BC /* NSURL+URLWithStringEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E781E8B5784004487BC /* NSURL+URLWithStringEncode.m */; };
-		8F0A5E811E8B602B004487BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A5E801E8B602B004487BC /* Assets.xcassets */; };
+		8F0A5E861E8B61D3004487BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A5E851E8B61D3004487BC /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,7 +99,7 @@
 		8F0A5E761E8B5784004487BC /* NSURL+URLChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+URLChar.m"; sourceTree = "<group>"; };
 		8F0A5E771E8B5784004487BC /* NSURL+URLWithStringEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+URLWithStringEncode.h"; sourceTree = "<group>"; };
 		8F0A5E781E8B5784004487BC /* NSURL+URLWithStringEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+URLWithStringEncode.m"; sourceTree = "<group>"; };
-		8F0A5E801E8B602B004487BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F0A5E851E8B61D3004487BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +116,7 @@
 		8F0A5DFA1E8B3544004487BC = {
 			isa = PBXGroup;
 			children = (
+				8F0A5E851E8B61D3004487BC /* Images.xcassets */,
 				8F0A5E1D1E8B3611004487BC /* URLRoute */,
 				8F0A5E051E8B3544004487BC /* TTSURLRoute */,
 				8F0A5E041E8B3544004487BC /* Products */,
@@ -154,7 +155,6 @@
 				8F0A5E0F1E8B3544004487BC /* Main.storyboard */,
 				8F0A5E141E8B3544004487BC /* LaunchScreen.storyboard */,
 				8F0A5E171E8B3544004487BC /* Info.plist */,
-				8F0A5E801E8B602B004487BC /* Assets.xcassets */,
 				8F0A5E061E8B3544004487BC /* Supporting Files */,
 			);
 			path = TTSURLRoute;
@@ -320,9 +320,9 @@
 			files = (
 				8F0A5E161E8B3544004487BC /* LaunchScreen.storyboard in Resources */,
 				8F0A5E6D1E8B562A004487BC /* URLRoutePlist.plist in Resources */,
+				8F0A5E861E8B61D3004487BC /* Images.xcassets in Resources */,
 				8F0A5E691E8B562A004487BC /* IndexSearchViewController.xib in Resources */,
 				8F0A5E6C1E8B562A004487BC /* LoginViewController.xib in Resources */,
-				8F0A5E811E8B602B004487BC /* Assets.xcassets in Resources */,
 				8F0A5E111E8B3544004487BC /* Main.storyboard in Resources */,
 				8F0A5E661E8B562A004487BC /* HomeViewController.xib in Resources */,
 			);
