@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ttsclient</key>
+	<dict>
+		<key>index</key>
+		<dict>
+			<key>search</key>
+			<dict>
+				<key>_hold</key>
+				<dict>
+					<key>_class</key>
+					<string>IndexSearchHold</string>
+					<key>_login</key>
+					<true/>
+				</dict>
+				<key>_class</key>
+				<string>IndexSearchViewController</string>
+			</dict>
+			<key>home</key>
+			<dict>
+				<key>_class</key>
+				<string>HomeViewController</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0A5E081E8B3544004487BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E071E8B3544004487BC /* main.m */; };
+		8F0A5E0B1E8B3544004487BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E0A1E8B3544004487BC /* AppDelegate.m */; };
+		8F0A5E0E1E8B3544004487BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E0D1E8B3544004487BC /* ViewController.m */; };
+		8F0A5E111E8B3544004487BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A5E0F1E8B3544004487BC /* Main.storyboard */; };
+		8F0A5E131E8B3544004487BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A5E121E8B3544004487BC /* Assets.xcassets */; };
+		8F0A5E161E8B3544004487BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A5E141E8B3544004487BC /* LaunchScreen.storyboard */; };
+		8F0A5E351E8B3ECE004487BC /* TTSURLRouteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E341E8B3ECE004487BC /* TTSURLRouteConfig.m */; };
+		8F0A5E391E8B471D004487BC /* TTSURLRouteConfig+RouteUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E381E8B471D004487BC /* TTSURLRouteConfig+RouteUserInfo.m */; };
+		8F0A5E3C1E8B4953004487BC /* TTSURLRouteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E3B1E8B4953004487BC /* TTSURLRouteResult.m */; };
+		8F0A5E3F1E8B4A71004487BC /* TTSRouteScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E3E1E8B4A71004487BC /* TTSRouteScheme.m */; };
+		8F0A5E421E8B4B49004487BC /* TTSURLRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E411E8B4B49004487BC /* TTSURLRoute.m */; };
+		8F0A5E451E8B4C51004487BC /* TTSURLRouteHold.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E441E8B4C51004487BC /* TTSURLRouteHold.m */; };
+		8F0A5E481E8B4C72004487BC /* TTSURLRouteHoldConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E471E8B4C72004487BC /* TTSURLRouteHoldConfig.m */; };
+		8F0A5E4F1E8B5082004487BC /* UIViewController+TTSURLRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E4E1E8B5082004487BC /* UIViewController+TTSURLRoute.m */; };
+		8F0A5E521E8B509F004487BC /* UIViewController+TTSURLRouteCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E511E8B509F004487BC /* UIViewController+TTSURLRouteCallBack.m */; };
+		8F0A5E551E8B54B9004487BC /* TTSURLBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E541E8B54B9004487BC /* TTSURLBridge.m */; };
+		8F0A5E651E8B562A004487BC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E581E8B562A004487BC /* HomeViewController.m */; };
+		8F0A5E661E8B562A004487BC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A5E591E8B562A004487BC /* HomeViewController.xib */; };
+		8F0A5E671E8B562A004487BC /* IndexSearchHold.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E5B1E8B562A004487BC /* IndexSearchHold.m */; };
+		8F0A5E681E8B562A004487BC /* IndexSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E5D1E8B562A004487BC /* IndexSearchViewController.m */; };
+		8F0A5E691E8B562A004487BC /* IndexSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A5E5E1E8B562A004487BC /* IndexSearchViewController.xib */; };
+		8F0A5E6A1E8B562A004487BC /* LoginMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E601E8B562A004487BC /* LoginMananger.m */; };
+		8F0A5E6B1E8B562A004487BC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E621E8B562A004487BC /* LoginViewController.m */; };
+		8F0A5E6C1E8B562A004487BC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A5E631E8B562A004487BC /* LoginViewController.xib */; };
+		8F0A5E6D1E8B562A004487BC /* URLRoutePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A5E641E8B562A004487BC /* URLRoutePlist.plist */; };
+		8F0A5E791E8B5784004487BC /* NSDictionary+URLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E701E8B5784004487BC /* NSDictionary+URLQuery.m */; };
+		8F0A5E7A1E8B5784004487BC /* NSString+RemoveUnderscoreAndInitials.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E721E8B5784004487BC /* NSString+RemoveUnderscoreAndInitials.m */; };
+		8F0A5E7B1E8B5784004487BC /* NSString+URLCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E741E8B5784004487BC /* NSString+URLCode.m */; };
+		8F0A5E7C1E8B5784004487BC /* NSURL+URLChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E761E8B5784004487BC /* NSURL+URLChar.m */; };
+		8F0A5E7D1E8B5784004487BC /* NSURL+URLWithStringEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E781E8B5784004487BC /* NSURL+URLWithStringEncode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F0A5E031E8B3544004487BC /* TTSURLRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSURLRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0A5E071E8B3544004487BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F0A5E091E8B3544004487BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F0A5E0A1E8B3544004487BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F0A5E0C1E8B3544004487BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F0A5E0D1E8B3544004487BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F0A5E101E8B3544004487BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F0A5E121E8B3544004487BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F0A5E151E8B3544004487BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F0A5E171E8B3544004487BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0A5E331E8B3ECE004487BC /* TTSURLRouteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLRouteConfig.h; sourceTree = "<group>"; };
+		8F0A5E341E8B3ECE004487BC /* TTSURLRouteConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSURLRouteConfig.m; sourceTree = "<group>"; };
+		8F0A5E361E8B4022004487BC /* TTSURLRouteConfigDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLRouteConfigDelegate.h; sourceTree = "<group>"; };
+		8F0A5E371E8B471D004487BC /* TTSURLRouteConfig+RouteUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTSURLRouteConfig+RouteUserInfo.h"; sourceTree = "<group>"; };
+		8F0A5E381E8B471D004487BC /* TTSURLRouteConfig+RouteUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TTSURLRouteConfig+RouteUserInfo.m"; sourceTree = "<group>"; };
+		8F0A5E3A1E8B4953004487BC /* TTSURLRouteResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLRouteResult.h; sourceTree = "<group>"; };
+		8F0A5E3B1E8B4953004487BC /* TTSURLRouteResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSURLRouteResult.m; sourceTree = "<group>"; };
+		8F0A5E3D1E8B4A71004487BC /* TTSRouteScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSRouteScheme.h; sourceTree = "<group>"; };
+		8F0A5E3E1E8B4A71004487BC /* TTSRouteScheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSRouteScheme.m; sourceTree = "<group>"; };
+		8F0A5E401E8B4B49004487BC /* TTSURLRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLRoute.h; sourceTree = "<group>"; };
+		8F0A5E411E8B4B49004487BC /* TTSURLRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSURLRoute.m; sourceTree = "<group>"; };
+		8F0A5E431E8B4C51004487BC /* TTSURLRouteHold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLRouteHold.h; sourceTree = "<group>"; };
+		8F0A5E441E8B4C51004487BC /* TTSURLRouteHold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSURLRouteHold.m; sourceTree = "<group>"; };
+		8F0A5E461E8B4C72004487BC /* TTSURLRouteHoldConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLRouteHoldConfig.h; sourceTree = "<group>"; };
+		8F0A5E471E8B4C72004487BC /* TTSURLRouteHoldConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSURLRouteHoldConfig.m; sourceTree = "<group>"; };
+		8F0A5E491E8B4CD7004487BC /* TTSURLRouteHoldProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLRouteHoldProtocol.h; sourceTree = "<group>"; };
+		8F0A5E4A1E8B5024004487BC /* TTSURLRouteCallBackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLRouteCallBackProtocol.h; sourceTree = "<group>"; };
+		8F0A5E4B1E8B5042004487BC /* TTSURLRoutePopProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLRoutePopProtocol.h; sourceTree = "<group>"; };
+		8F0A5E4C1E8B5061004487BC /* TTSURLRoutePushProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLRoutePushProtocol.h; sourceTree = "<group>"; };
+		8F0A5E4D1E8B5082004487BC /* UIViewController+TTSURLRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TTSURLRoute.h"; sourceTree = "<group>"; };
+		8F0A5E4E1E8B5082004487BC /* UIViewController+TTSURLRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TTSURLRoute.m"; sourceTree = "<group>"; };
+		8F0A5E501E8B509F004487BC /* UIViewController+TTSURLRouteCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TTSURLRouteCallBack.h"; sourceTree = "<group>"; };
+		8F0A5E511E8B509F004487BC /* UIViewController+TTSURLRouteCallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TTSURLRouteCallBack.m"; sourceTree = "<group>"; };
+		8F0A5E531E8B54B9004487BC /* TTSURLBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSURLBridge.h; sourceTree = "<group>"; };
+		8F0A5E541E8B54B9004487BC /* TTSURLBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSURLBridge.m; sourceTree = "<group>"; };
+		8F0A5E561E8B552D004487BC /* TTSURLRouteKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSURLRouteKit.h; sourceTree = "<group>"; };
+		8F0A5E571E8B562A004487BC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8F0A5E581E8B562A004487BC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8F0A5E591E8B562A004487BC /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8F0A5E5A1E8B562A004487BC /* IndexSearchHold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexSearchHold.h; sourceTree = "<group>"; };
+		8F0A5E5B1E8B562A004487BC /* IndexSearchHold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexSearchHold.m; sourceTree = "<group>"; };
+		8F0A5E5C1E8B562A004487BC /* IndexSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexSearchViewController.h; sourceTree = "<group>"; };
+		8F0A5E5D1E8B562A004487BC /* IndexSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexSearchViewController.m; sourceTree = "<group>"; };
+		8F0A5E5E1E8B562A004487BC /* IndexSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexSearchViewController.xib; sourceTree = "<group>"; };
+		8F0A5E5F1E8B562A004487BC /* LoginMananger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginMananger.h; sourceTree = "<group>"; };
+		8F0A5E601E8B562A004487BC /* LoginMananger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginMananger.m; sourceTree = "<group>"; };
+		8F0A5E611E8B562A004487BC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8F0A5E621E8B562A004487BC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8F0A5E631E8B562A004487BC /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8F0A5E641E8B562A004487BC /* URLRoutePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = URLRoutePlist.plist; sourceTree = "<group>"; };
+		8F0A5E6F1E8B5784004487BC /* NSDictionary+URLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLQuery.h"; sourceTree = "<group>"; };
+		8F0A5E701E8B5784004487BC /* NSDictionary+URLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLQuery.m"; sourceTree = "<group>"; };
+		8F0A5E711E8B5784004487BC /* NSString+RemoveUnderscoreAndInitials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RemoveUnderscoreAndInitials.h"; sourceTree = "<group>"; };
+		8F0A5E721E8B5784004487BC /* NSString+RemoveUnderscoreAndInitials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RemoveUnderscoreAndInitials.m"; sourceTree = "<group>"; };
+		8F0A5E731E8B5784004487BC /* NSString+URLCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLCode.h"; sourceTree = "<group>"; };
+		8F0A5E741E8B5784004487BC /* NSString+URLCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLCode.m"; sourceTree = "<group>"; };
+		8F0A5E751E8B5784004487BC /* NSURL+URLChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+URLChar.h"; sourceTree = "<group>"; };
+		8F0A5E761E8B5784004487BC /* NSURL+URLChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+URLChar.m"; sourceTree = "<group>"; };
+		8F0A5E771E8B5784004487BC /* NSURL+URLWithStringEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+URLWithStringEncode.h"; sourceTree = "<group>"; };
+		8F0A5E781E8B5784004487BC /* NSURL+URLWithStringEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+URLWithStringEncode.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F0A5E001E8B3544004487BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F0A5DFA1E8B3544004487BC = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E1D1E8B3611004487BC /* URLRoute */,
+				8F0A5E051E8B3544004487BC /* TTSURLRoute */,
+				8F0A5E041E8B3544004487BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F0A5E041E8B3544004487BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E031E8B3544004487BC /* TTSURLRoute.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F0A5E051E8B3544004487BC /* TTSURLRoute */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E091E8B3544004487BC /* AppDelegate.h */,
+				8F0A5E0A1E8B3544004487BC /* AppDelegate.m */,
+				8F0A5E0C1E8B3544004487BC /* ViewController.h */,
+				8F0A5E0D1E8B3544004487BC /* ViewController.m */,
+				8F0A5E571E8B562A004487BC /* HomeViewController.h */,
+				8F0A5E581E8B562A004487BC /* HomeViewController.m */,
+				8F0A5E591E8B562A004487BC /* HomeViewController.xib */,
+				8F0A5E5A1E8B562A004487BC /* IndexSearchHold.h */,
+				8F0A5E5B1E8B562A004487BC /* IndexSearchHold.m */,
+				8F0A5E5C1E8B562A004487BC /* IndexSearchViewController.h */,
+				8F0A5E5D1E8B562A004487BC /* IndexSearchViewController.m */,
+				8F0A5E5E1E8B562A004487BC /* IndexSearchViewController.xib */,
+				8F0A5E5F1E8B562A004487BC /* LoginMananger.h */,
+				8F0A5E601E8B562A004487BC /* LoginMananger.m */,
+				8F0A5E611E8B562A004487BC /* LoginViewController.h */,
+				8F0A5E621E8B562A004487BC /* LoginViewController.m */,
+				8F0A5E631E8B562A004487BC /* LoginViewController.xib */,
+				8F0A5E641E8B562A004487BC /* URLRoutePlist.plist */,
+				8F0A5E0F1E8B3544004487BC /* Main.storyboard */,
+				8F0A5E121E8B3544004487BC /* Assets.xcassets */,
+				8F0A5E141E8B3544004487BC /* LaunchScreen.storyboard */,
+				8F0A5E171E8B3544004487BC /* Info.plist */,
+				8F0A5E061E8B3544004487BC /* Supporting Files */,
+			);
+			path = TTSURLRoute;
+			sourceTree = "<group>";
+		};
+		8F0A5E061E8B3544004487BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E071E8B3544004487BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F0A5E1D1E8B3611004487BC /* URLRoute */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E561E8B552D004487BC /* TTSURLRouteKit.h */,
+				8F0A5E1E1E8B3611004487BC /* Bridge */,
+				8F0A5E201E8B3611004487BC /* Config */,
+				8F0A5E6E1E8B5784004487BC /* Category */,
+				8F0A5E211E8B3611004487BC /* Hold */,
+				8F0A5E221E8B3611004487BC /* Route */,
+				8F0A5E231E8B3611004487BC /* UIViewController+TTSURLRoute */,
+			);
+			path = URLRoute;
+			sourceTree = "<group>";
+		};
+		8F0A5E1E1E8B3611004487BC /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E531E8B54B9004487BC /* TTSURLBridge.h */,
+				8F0A5E541E8B54B9004487BC /* TTSURLBridge.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		8F0A5E201E8B3611004487BC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E331E8B3ECE004487BC /* TTSURLRouteConfig.h */,
+				8F0A5E341E8B3ECE004487BC /* TTSURLRouteConfig.m */,
+				8F0A5E371E8B471D004487BC /* TTSURLRouteConfig+RouteUserInfo.h */,
+				8F0A5E381E8B471D004487BC /* TTSURLRouteConfig+RouteUserInfo.m */,
+				8F0A5E361E8B4022004487BC /* TTSURLRouteConfigDelegate.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		8F0A5E211E8B3611004487BC /* Hold */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E431E8B4C51004487BC /* TTSURLRouteHold.h */,
+				8F0A5E441E8B4C51004487BC /* TTSURLRouteHold.m */,
+				8F0A5E461E8B4C72004487BC /* TTSURLRouteHoldConfig.h */,
+				8F0A5E471E8B4C72004487BC /* TTSURLRouteHoldConfig.m */,
+				8F0A5E491E8B4CD7004487BC /* TTSURLRouteHoldProtocol.h */,
+			);
+			path = Hold;
+			sourceTree = "<group>";
+		};
+		8F0A5E221E8B3611004487BC /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E3A1E8B4953004487BC /* TTSURLRouteResult.h */,
+				8F0A5E3B1E8B4953004487BC /* TTSURLRouteResult.m */,
+				8F0A5E3D1E8B4A71004487BC /* TTSRouteScheme.h */,
+				8F0A5E3E1E8B4A71004487BC /* TTSRouteScheme.m */,
+				8F0A5E401E8B4B49004487BC /* TTSURLRoute.h */,
+				8F0A5E411E8B4B49004487BC /* TTSURLRoute.m */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		8F0A5E231E8B3611004487BC /* UIViewController+TTSURLRoute */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E4A1E8B5024004487BC /* TTSURLRouteCallBackProtocol.h */,
+				8F0A5E4B1E8B5042004487BC /* TTSURLRoutePopProtocol.h */,
+				8F0A5E4C1E8B5061004487BC /* TTSURLRoutePushProtocol.h */,
+				8F0A5E4D1E8B5082004487BC /* UIViewController+TTSURLRoute.h */,
+				8F0A5E4E1E8B5082004487BC /* UIViewController+TTSURLRoute.m */,
+				8F0A5E501E8B509F004487BC /* UIViewController+TTSURLRouteCallBack.h */,
+				8F0A5E511E8B509F004487BC /* UIViewController+TTSURLRouteCallBack.m */,
+			);
+			path = "UIViewController+TTSURLRoute";
+			sourceTree = "<group>";
+		};
+		8F0A5E6E1E8B5784004487BC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A5E6F1E8B5784004487BC /* NSDictionary+URLQuery.h */,
+				8F0A5E701E8B5784004487BC /* NSDictionary+URLQuery.m */,
+				8F0A5E711E8B5784004487BC /* NSString+RemoveUnderscoreAndInitials.h */,
+				8F0A5E721E8B5784004487BC /* NSString+RemoveUnderscoreAndInitials.m */,
+				8F0A5E731E8B5784004487BC /* NSString+URLCode.h */,
+				8F0A5E741E8B5784004487BC /* NSString+URLCode.m */,
+				8F0A5E751E8B5784004487BC /* NSURL+URLChar.h */,
+				8F0A5E761E8B5784004487BC /* NSURL+URLChar.m */,
+				8F0A5E771E8B5784004487BC /* NSURL+URLWithStringEncode.h */,
+				8F0A5E781E8B5784004487BC /* NSURL+URLWithStringEncode.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F0A5E021E8B3544004487BC /* TTSURLRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0A5E1A1E8B3544004487BC /* Build configuration list for PBXNativeTarget "TTSURLRoute" */;
+			buildPhases = (
+				8F0A5DFF1E8B3544004487BC /* Sources */,
+				8F0A5E001E8B3544004487BC /* Frameworks */,
+				8F0A5E011E8B3544004487BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSURLRoute;
+			productName = TTSURLRoute;
+			productReference = 8F0A5E031E8B3544004487BC /* TTSURLRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F0A5DFB1E8B3544004487BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "李正兵";
+				TargetAttributes = {
+					8F0A5E021E8B3544004487BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2G4AT7N2J9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F0A5DFE1E8B3544004487BC /* Build configuration list for PBXProject "TTSURLRoute" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F0A5DFA1E8B3544004487BC;
+			productRefGroup = 8F0A5E041E8B3544004487BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F0A5E021E8B3544004487BC /* TTSURLRoute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F0A5E011E8B3544004487BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0A5E161E8B3544004487BC /* LaunchScreen.storyboard in Resources */,
+				8F0A5E6D1E8B562A004487BC /* URLRoutePlist.plist in Resources */,
+				8F0A5E691E8B562A004487BC /* IndexSearchViewController.xib in Resources */,
+				8F0A5E6C1E8B562A004487BC /* LoginViewController.xib in Resources */,
+				8F0A5E131E8B3544004487BC /* Assets.xcassets in Resources */,
+				8F0A5E111E8B3544004487BC /* Main.storyboard in Resources */,
+				8F0A5E661E8B562A004487BC /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F0A5DFF1E8B3544004487BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0A5E7D1E8B5784004487BC /* NSURL+URLWithStringEncode.m in Sources */,
+				8F0A5E551E8B54B9004487BC /* TTSURLBridge.m in Sources */,
+				8F0A5E6B1E8B562A004487BC /* LoginViewController.m in Sources */,
+				8F0A5E451E8B4C51004487BC /* TTSURLRouteHold.m in Sources */,
+				8F0A5E421E8B4B49004487BC /* TTSURLRoute.m in Sources */,
+				8F0A5E7C1E8B5784004487BC /* NSURL+URLChar.m in Sources */,
+				8F0A5E7A1E8B5784004487BC /* NSString+RemoveUnderscoreAndInitials.m in Sources */,
+				8F0A5E521E8B509F004487BC /* UIViewController+TTSURLRouteCallBack.m in Sources */,
+				8F0A5E351E8B3ECE004487BC /* TTSURLRouteConfig.m in Sources */,
+				8F0A5E681E8B562A004487BC /* IndexSearchViewController.m in Sources */,
+				8F0A5E0E1E8B3544004487BC /* ViewController.m in Sources */,
+				8F0A5E481E8B4C72004487BC /* TTSURLRouteHoldConfig.m in Sources */,
+				8F0A5E671E8B562A004487BC /* IndexSearchHold.m in Sources */,
+				8F0A5E0B1E8B3544004487BC /* AppDelegate.m in Sources */,
+				8F0A5E6A1E8B562A004487BC /* LoginMananger.m in Sources */,
+				8F0A5E791E8B5784004487BC /* NSDictionary+URLQuery.m in Sources */,
+				8F0A5E3F1E8B4A71004487BC /* TTSRouteScheme.m in Sources */,
+				8F0A5E391E8B471D004487BC /* TTSURLRouteConfig+RouteUserInfo.m in Sources */,
+				8F0A5E081E8B3544004487BC /* main.m in Sources */,
+				8F0A5E4F1E8B5082004487BC /* UIViewController+TTSURLRoute.m in Sources */,
+				8F0A5E651E8B562A004487BC /* HomeViewController.m in Sources */,
+				8F0A5E7B1E8B5784004487BC /* NSString+URLCode.m in Sources */,
+				8F0A5E3C1E8B4953004487BC /* TTSURLRouteResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F0A5E0F1E8B3544004487BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0A5E101E8B3544004487BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F0A5E141E8B3544004487BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0A5E151E8B3544004487BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F0A5E181E8B3544004487BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F0A5E191E8B3544004487BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F0A5E1B1E8B3544004487BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2G4AT7N2J9;
+				INFOPLIST_FILE = TTSURLRoute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.private.TTSURLRoute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F0A5E1C1E8B3544004487BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2G4AT7N2J9;
+				INFOPLIST_FILE = TTSURLRoute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.private.TTSURLRoute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F0A5DFE1E8B3544004487BC /* Build configuration list for PBXProject "TTSURLRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0A5E181E8B3544004487BC /* Debug */,
+				8F0A5E191E8B3544004487BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0A5E1A1E8B3544004487BC /* Build configuration list for PBXNativeTarget "TTSURLRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0A5E1B1E8B3544004487BC /* Debug */,
+				8F0A5E1C1E8B3544004487BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F0A5DFB1E8B3544004487BC /* Project object */;
+}
