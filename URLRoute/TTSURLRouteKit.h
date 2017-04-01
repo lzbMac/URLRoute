@@ -22,6 +22,9 @@
 #import "TTSURLRouteHoldConfig.h"
 #import "TTSURLRouteHoldProtocol.h"
 
+//result
+#import "TTSURLRouteResult.h"
+
 //URL扩展
 #import "NSURL+URLChar.h"
 

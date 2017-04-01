@@ -7,8 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "HomeViewController.h"
-#import "IndexSearchViewController.h"
 #import "TTSURLRouteKit.h"
 
 @interface ViewController ()
@@ -28,10 +26,10 @@
     [self.view addSubview:btn1];
     
     UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn2.frame = CGRectMake(20, 200, 100, 50);
+    btn2.frame = CGRectMake(20, 200, 200, 50);
     [btn2 setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btn2 addTarget:self action:@selector(gotosearch:) forControlEvents:UIControlEventTouchUpInside];
-    [btn2 setTitle:@"Search" forState:UIControlStateNormal];
+    [btn2 setTitle:@"Search（登录拦截）" forState:UIControlStateNormal];
     [self.view addSubview:btn2];
     
     UIButton *btn3 = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -48,6 +46,13 @@
     [btn4 setTitle:@"点这里取消登录" forState:UIControlStateNormal];
     [self.view addSubview:btn4];
     
+    UIButton *btn5 = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn5.frame = CGRectMake(20, 500, 100, 50);
+    [btn5 setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [btn5 addTarget:self action:@selector(gotoH5) forControlEvents:UIControlEventTouchUpInside];
+    [btn5 setTitle:@"web页面" forState:UIControlStateNormal];
+    [self.view addSubview:btn5];
+    
 }
 - (IBAction)gotohome:(id)sender {
     [self openRouteURLString:@"ttsclient://index/home?color=1&title=首页" options:nil];
@@ -60,6 +65,12 @@
     [self openLoginWithCompletion:^(BOOL isLogin, NSDictionary *options) {
         NSLog(@"登录完成---------");
     }];
+
+}
+
+- (void)gotoH5 {
+    //    [self openRouteURLString:@"http://www.baidu.com" options:nil];
+    [self openRouteURLString:@"https://www.baidu.com" options:nil];
 }
 - (void)routeCallBackWithParam:(NSDictionary *)callback {
     NSLog(@"这里是回调a---%@",callback);

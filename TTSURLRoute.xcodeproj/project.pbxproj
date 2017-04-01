@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0915FE1E8C897C00AC62F1 /* TTSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0915FC1E8C897C00AC62F1 /* TTSWebViewController.m */; };
+		8F0915FF1E8C897C00AC62F1 /* TTSWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0915FD1E8C897C00AC62F1 /* TTSWebViewController.xib */; };
+		8F0916021E8C899A00AC62F1 /* TTSWebPageHold.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0916011E8C899A00AC62F1 /* TTSWebPageHold.m */; };
 		8F0A5E081E8B3544004487BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E071E8B3544004487BC /* main.m */; };
 		8F0A5E0B1E8B3544004487BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E0A1E8B3544004487BC /* AppDelegate.m */; };
 		8F0A5E0E1E8B3544004487BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A5E0D1E8B3544004487BC /* ViewController.m */; };
@@ -42,6 +45,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F0915FB1E8C897C00AC62F1 /* TTSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSWebViewController.h; sourceTree = "<group>"; };
+		8F0915FC1E8C897C00AC62F1 /* TTSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSWebViewController.m; sourceTree = "<group>"; };
+		8F0915FD1E8C897C00AC62F1 /* TTSWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTSWebViewController.xib; sourceTree = "<group>"; };
+		8F0916001E8C899A00AC62F1 /* TTSWebPageHold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSWebPageHold.h; sourceTree = "<group>"; };
+		8F0916011E8C899A00AC62F1 /* TTSWebPageHold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSWebPageHold.m; sourceTree = "<group>"; };
 		8F0A5E031E8B3544004487BC /* TTSURLRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSURLRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0A5E071E8B3544004487BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F0A5E091E8B3544004487BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -161,6 +169,11 @@
 				8F0A5E611E8B562A004487BC /* LoginViewController.h */,
 				8F0A5E621E8B562A004487BC /* LoginViewController.m */,
 				8F0A5E631E8B562A004487BC /* LoginViewController.xib */,
+				8F0915FB1E8C897C00AC62F1 /* TTSWebViewController.h */,
+				8F0915FC1E8C897C00AC62F1 /* TTSWebViewController.m */,
+				8F0915FD1E8C897C00AC62F1 /* TTSWebViewController.xib */,
+				8F0916001E8C899A00AC62F1 /* TTSWebPageHold.h */,
+				8F0916011E8C899A00AC62F1 /* TTSWebPageHold.m */,
 				8F0A5E641E8B562A004487BC /* URLRoutePlist.plist */,
 				8F0A5E0F1E8B3544004487BC /* Main.storyboard */,
 				8F0A5E141E8B3544004487BC /* LaunchScreen.storyboard */,
@@ -329,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F0A5E161E8B3544004487BC /* LaunchScreen.storyboard in Resources */,
+				8F0915FF1E8C897C00AC62F1 /* TTSWebViewController.xib in Resources */,
 				8F0A5E6D1E8B562A004487BC /* URLRoutePlist.plist in Resources */,
 				8F0A5E691E8B562A004487BC /* IndexSearchViewController.xib in Resources */,
 				8F0A5E6C1E8B562A004487BC /* LoginViewController.xib in Resources */,
@@ -350,7 +364,9 @@
 				8F0A5E6B1E8B562A004487BC /* LoginViewController.m in Sources */,
 				8F0A5E8F1E8B81C8004487BC /* TTSCommonModuleRegister.m in Sources */,
 				8F0A5E451E8B4C51004487BC /* TTSURLRouteHold.m in Sources */,
+				8F0915FE1E8C897C00AC62F1 /* TTSWebViewController.m in Sources */,
 				8F0A5E421E8B4B49004487BC /* TTSURLRoute.m in Sources */,
+				8F0916021E8C899A00AC62F1 /* TTSWebPageHold.m in Sources */,
 				8F0A5E7C1E8B5784004487BC /* NSURL+URLChar.m in Sources */,
 				8F0A5E7A1E8B5784004487BC /* NSString+RemoveUnderscoreAndInitials.m in Sources */,
 				8F0A5E521E8B509F004487BC /* UIViewController+TTSURLRouteCallBack.m in Sources */,

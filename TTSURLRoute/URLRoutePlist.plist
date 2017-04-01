@@ -2,6 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>https</key>
+	<dict>
+		<key>_class</key>
+		<string>TTSWebViewController</string>
+	</dict>
+	<key>http</key>
+	<dict>
+		<key>_hold</key>
+		<dict>
+			<key>_class</key>
+			<string>TTSWebPageHold</string>
+		</dict>
+		<key>_class</key>
+		<string></string>
+	</dict>
 	<key>ttsclient</key>
 	<dict>
 		<key>index</key>
