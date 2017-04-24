@@ -15,19 +15,14 @@
 
 @implementation HomeViewController
 {
-    UIColor *_bgColor;
+    NSString *_content;
     NSString *_navTitle;
+    __weak IBOutlet UILabel *lblContent;
 }
 - (void)routeWillPushControllerWithParam:(NSDictionary *)param{
-    NSString *color = param[@"color"];
+    _content = param[@"content"];
     _navTitle = param[@"title"];
-    if ([color isEqualToString:@"1"]) {
-        _bgColor = [UIColor redColor];
-    }else if ([color isEqualToString:@"2"]) {
-        _bgColor = [UIColor greenColor];
-    }else {
-        _bgColor = [UIColor whiteColor];
-    }
+    
 }
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
@@ -36,8 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = _navTitle;
-    self.view .backgroundColor = _bgColor;
-    // Do any additional setup after loading the view from its nib.
+    lblContent.text = _content;
 }
 
 - (void)didReceiveMemoryWarning {

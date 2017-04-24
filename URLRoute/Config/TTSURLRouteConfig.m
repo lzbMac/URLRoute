@@ -13,7 +13,6 @@ NSString * const kRouteConfigNib        = @"_nib";
 
 NSString * const kRouteConfigHold       = @"_hold";
 NSString * const kRouteConfigWantLogin  = @"_login";
-NSString * const kRouteConfigWantHybrid = @"_hybrid";
 NSString * const kRouteConfigCheckKeys  = @"_checkKeys";
 NSString * const kRouteConfigPassKeys   = @"_passKeys";
 

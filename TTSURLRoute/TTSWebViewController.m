@@ -22,7 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.edgesForExtendedLayout = UIRectEdgeNone;
     NSURL *url = [NSURL URLWithString:self.urlString];
     [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
 }

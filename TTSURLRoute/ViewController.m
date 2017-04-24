@@ -55,11 +55,11 @@
     
 }
 - (IBAction)gotohome:(id)sender {
-    [self openRouteURLString:@"ttsclient://index/home?color=1&title=首页" options:nil];
+    [self openRouteURLString:@"ttsclient://index/home?content=车之翼&title=首页" options:nil];
 }
 
 - (IBAction)gotosearch:(id)sender {
-    [self openRouteURLString:@"ttsclient://index/search?color=2&title=搜索" options:nil];
+    [self openRouteURLString:@"ttsclient://index/search?app=天天爱车&title=搜索" options:nil];
 }
 - (void)login:(id)sender {
     [self openLoginWithCompletion:^(BOOL isLogin, NSDictionary *options) {
