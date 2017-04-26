@@ -69,11 +69,16 @@
 }
 
 - (void)gotoH5 {
-    //    [self openRouteURLString:@"http://www.baidu.com" options:nil];
     [self openRouteURLString:@"https://www.baidu.com" options:nil];
 }
 - (void)routeCallBackWithParam:(NSDictionary *)callback {
     NSLog(@"这里是回调a---%@",callback);
+    NSString *search = callback[@"search"];
+    if (!search.length) {
+        return;
+    }
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:search delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    [alert show];
 }
 - (void)cancleLogin{
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"已取消登录！" delegate:nil cancelButtonTitle:@"好的" otherButtonTitles:nil, nil];

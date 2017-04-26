@@ -11,6 +11,7 @@
 
 @interface IndexSearchViewController ()
 
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @end
 
 @implementation IndexSearchViewController
@@ -31,7 +32,7 @@
 }
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
-    [self routeCallBack:@{@"page":@"search"}];
+    [self routeCallBack:@{@"search":self.searchBar.text.length?self.searchBar.text:@""}];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
